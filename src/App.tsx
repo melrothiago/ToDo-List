@@ -1,5 +1,5 @@
 import { Header } from "./components/Header";
-import { HeaderTasks } from "./components/HeaderTasks";
+import { Tasks } from "./components/Tasks";
 
 export interface AppProps {
   (): JSX.Element;
@@ -9,7 +9,7 @@ function App(): JSX.Element {
   return (
     <div>
       <Header />
-      <HeaderTasks />
+      <Tasks />
     </div>
   );
 }

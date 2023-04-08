@@ -1,5 +1,7 @@
-import styles from './HeaderTasks.module.css'
-export function HeaderTasks() {
+import { TaskList } from './TaskList'
+import styles from './Tasks.module.css'
+
+export function Tasks() {
     return (
         <section className={styles.tasks}>
             <header className={styles.header}>
@@ -12,6 +14,11 @@ export function HeaderTasks() {
                     <span>2 de 10</span>
                 </div>
             </header>
+
+            <div className={styles.list}>
+                <TaskList />
+                <TaskList />
+            </div>
         </section>
     )
 }
