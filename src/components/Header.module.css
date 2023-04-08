@@ -1,0 +1,15 @@
+body {
+/* Background */
+
+
+position: absolute;
+height: 200px;
+left: 187px;
+right: -187px;
+top: 33px;
+
+/* Gray 700 */
+
+background: #0D0D0D;
+
+}

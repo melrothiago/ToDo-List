@@ -1,6 +1,15 @@
-function App() {
-  <div></div>;
-  
+import { Header } from "./components/Index";
+
+export interface AppProps {
+  (): JSX.Element;
 }
 
-export default App
+function App(): JSX.Element {
+  return (
+    <div>
+      <Header />
+    </div>
+  );
+}
+
+export default App;
